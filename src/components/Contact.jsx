@@ -21,6 +21,7 @@ function Contact() {
     var regname = /^[a-zA-Z\s]*$/;
     var regemail = /^\S+@\S+\.\S+$/;
 
+    // alert Messages
     if (name === "" || email === "" || subject === "" || message === "") {
       Swal.fire({
         title: "Oops..",
