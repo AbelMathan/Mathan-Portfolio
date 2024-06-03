@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contact {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Home {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.active {
+  position: relative;
+  bottom: 3px;
+  font-size: 115%;
+  font-weight: bolder;
+  color: #006782;
+  border-bottom: 3px rgb(152, 152, 152) solid;
+}
